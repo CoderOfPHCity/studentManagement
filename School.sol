@@ -28,7 +28,7 @@ contract School {
         teachers[_teacher] = true;
     }
 
-    function updatestudent(
+    function addstudent(
         string memory _name,
         uint256 _matNumber,
         uint256 _scores
